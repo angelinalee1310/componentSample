@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { UserListComponent } from './user-list/user-list.component';
 import { MatButtonModule } from '@angular/material/button';
+import { ResetRatingsComponent } from './reset-ratings/reset-ratings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserDetailComponent,
-    UserListComponent
+    UserListComponent,
+    ResetRatingsComponent
   ],
     imports: [
         BrowserModule,
